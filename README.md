@@ -20,7 +20,7 @@ A built from ground up rendering helper/system in C# that uses windows buffering
             {
                 Global.Render.DrawRectangle(entity.pos2d.x, entity.pos2d.y, entity.size2d.w, entity.size2d.h, entity.enemy ? Color.Red : Color.Blue);
                 Global.Render.FillRectangle(entity.pos2d.x + 1, entity.pos2d.y + 1, entity.size2d.w - 2, entity.size2d.h + 1, Color.Black);
-                Global.Render.FillRectangle(entity.pos2d.x + 1, entity.pos2d.y + 1, entity.hp / entity.size2d.w - 1, entity.size2d.h + 1, Color.Black);
+                Global.Render.FillRectangle(entity.pos2d.x + 1, entity.pos2d.y + 1, entity.hp / entity.size2d.w - 1, entity.size2d.h + 1, Color.Green);
             }
         }
 ```
